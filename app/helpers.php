@@ -386,7 +386,7 @@ function sendSms($mobileNo = '',$otp = '1234')
     $message = 'Your OTP for login '.$otp;
 
     $args = http_build_query(array(
-    'token' => 'v2_T7tHFZwTUO8sso3QNv8vCMZmAA1.tHyQ',
+    'token' => '',
     'from'  => 'BhesBhusa',
     'to'    => $mobileNo,
     'text'  => $message));
